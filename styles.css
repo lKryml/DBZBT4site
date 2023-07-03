@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    color: #ffb703;
+    background-image: url("https://media.tenor.com/bumRB3slGm8AAAAC/budokai-tenkaichi-dragon-ball-z.gif");
+    background-size: cover;
+    text-align: center;
+    font-family: Saiyan-SansLeftOblique;
+    font-size: 50px;
+    margin: 0;
+}
+
+@font-face {
+    src: url(Saiyan-SansLeftOblique.ttf);
+    font-family: Saiyan-SansLeftOblique;
+}
+#main-logo {
+    height: 100px;
+    width: 200px;
+}
+
+#middle-logo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    margin: 150px auto;
+    
+}
+
+.btn {
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    font-family: Saiyan-SansLeftOblique;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+    text-shadow: 3px 3px 3px purple;
+
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+   
